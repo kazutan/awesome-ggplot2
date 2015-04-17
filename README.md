@@ -4,10 +4,10 @@ ggplot2に関連するパッケージは現在かなりの数があります。�
 - [ggfortify](#ggfortify)
 
 ## ggfortify
-*サイトリンク*
-[GitHub](https://github.com/sinhrks/ggfortify)
-*概要*
-一般的なRパッケージで`ggplot2`をスムーズに使えるようにしたパッケージです。カバーしているパッケージが非常に多く、また設定も簡単に行えます。
+- サイトリンク
+  - [GitHub](https://github.com/sinhrks/ggfortify)
+- 概要
+  - 一般的なRパッケージで`ggplot2`をスムーズに使えるようにしたパッケージです。カバーしているパッケージが非常に多く、また設定も簡単に行えます。
 
 *インストール*
 ```R
