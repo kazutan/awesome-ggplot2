@@ -7,36 +7,8 @@ ggplot2に関連するパッケージは現在かなりの数があります。�
 - [ggmcmc](#ggmcmc)
 
 以下準備・検討中リスト
-- ggmap
-- GGally
-- ggdendro
-- ddthemes
-- pitchRx
-- RcmdrPlugin.KMggplot2
-- eeptools
-- ggparallel
-- ggsubplot
-- popgraph
-- PairedData
-- ggRandomForests
-- xkcd
-- COPASutils
-- ggROC
-- granovaGG
-- PKreport
-- ggExtra
-- bdscale
-- ggswissmaps
-- MCMC.OTU
-- gapmap
-- ggenealogy
-- Rz
-- PKgraph
-- mapDK
-- orgR
-- vdmR
-- ggterm
 
+{ggmap},{ggdendro},{ggthemes},{pitchRx},{RcmdrPlugin.KMggplot2},{eeptools},{ggparallel},{ggsubplot},{popgraph},{PairedData},{ggRandomForests},{xkcd},{COPASutils},{ggROC},{granovaGG},{PKreport},{ggExtra},{bdscale},{ggswissmaps},{MCMC.OTU},{gapmap},{ggenealogy},{Rz},{PKgraph},{mapDK},{orgR},{vdmR},{ggtern}
 
 ## パッケージ紹介
 ### GGally
