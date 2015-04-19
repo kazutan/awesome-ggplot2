@@ -1,10 +1,64 @@
 # awesome-ggplot2
 ggplot2に関連するパッケージは現在かなりの数があります。その中から「これはいいね」という素敵なパッケージを集めてまとめることにしました。なお現在試験的に作成しています。
 
+## index
+- [GGally](#GGally)
 - [ggfortify](#ggfortify)
 - [ggmcmc](#ggmcmc)
 
-## ggfortify
+以下準備・検討中リスト
+- ggmap
+- GGally
+- ggdendro
+- ddthemes
+- pitchRx
+- RcmdrPlugin.KMggplot2
+- eeptools
+- ggparallel
+- ggsubplot
+- popgraph
+- PairedData
+- ggRandomForests
+- xkcd
+- COPASutils
+- ggROC
+- granovaGG
+- PKreport
+- ggExtra
+- bdscale
+- ggswissmaps
+- MCMC.OTU
+- gapmap
+- ggenealogy
+- Rz
+- PKgraph
+- mapDK
+- orgR
+- vdmR
+- ggterm
+
+
+## パッケージ紹介
+### GGally
+- サイトリンク
+  - [GitHub](https://github.com/ggobi/ggally)
+  - [CRAN](http://cran.r-project.org/web/packages/GGally/index.html)
+- 概要
+  - `ggplot2`での作画を補助・拡張するパッケージです
+  - `ggpairs()`でペアプロット図を`ggplot2`出力で描くことが可能
+  - titleなどのオプションの指定は`ggplot2`とは異なり関数内オプションでそのまま記述
+  - `ggnet()`は`ggplot2`を使って`igraph`or`network`classのオブジェクトからネットワークプロットを作成
+- サンプルコードなど
+  - 基本的な使い方は[`ggpairs()`のヘルプ](http://rpackages.ianhowson.com/cran/GGally/man/ggpairs.html)を
+  - サンプル: [美しいペアプロット図を簡単に作る - My Life as a Mock Quant](http://d.hatena.ne.jp/teramonagi/20130412/1365767677)
+  - サンプル: [美しいペアプロット図を簡単に作る - 驚異のアニヲタ社会復帰への道](http://d.hatena.ne.jp/MikuHatsune/20130412/1365774348)
+- インストール
+  - CRANよりインストール
+```R
+install.packages("ggmcmc", dependencies=TRUE)
+```
+
+### ggfortify
 - サイトリンク
   - [GitHub](https://github.com/sinhrks/ggfortify)
 - 概要
@@ -20,7 +74,7 @@ library(devtools)
 install_github('sinhrks/ggfortify')
 ```
 
-## ggmcmc
+### ggmcmc
 - サイトリンク
   - [GitHub](https://github.com/xfim/ggmcmc)
   - [CRAN](http://cran.r-project.org/web/packages/ggmcmc/index.html)
