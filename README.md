@@ -4,7 +4,7 @@ ggplot2に関連するパッケージは現在かなりの数があります。�
 ## index
 - [ggthemr](#ggthemr)
 - [ggthemes](#ggthemes)
-- [GGally](#GGally)
+- [GGally](#ggally)
 - [ggfortify](#ggfortify)
 - [ggmcmc](#ggmcmc)
 
