@@ -2,6 +2,7 @@
 ggplot2に関連するパッケージは現在かなりの数があります。その中から「これはいいね」という素敵なパッケージを集めてまとめることにしました。なお現在試験的に作成しています。
 
 ## index
+- [ggthemr](#ggthemr)
 - [ggthemes](#ggthemes)
 - [GGally](#GGally)
 - [ggfortify](#ggfortify)
@@ -9,16 +10,34 @@ ggplot2に関連するパッケージは現在かなりの数があります。�
 
 以下準備・検討中リスト
 
-{ggmap},{ggdendro},{pitchRx},{RcmdrPlugin.KMggplot2},{eeptools},{ggparallel},{ggsubplot},{popgraph},{PairedData},{ggRandomForests},{xkcd},{COPASutils},{ggROC},{granovaGG},{PKreport},{ggExtra},{bdscale},{ggswissmaps},{MCMC.OTU},{gapmap},{ggenealogy},{Rz},{PKgraph},{mapDK},{orgR},{vdmR},{ggtern},{ggthemr}
+{ggmap},{ggdendro},{pitchRx},{RcmdrPlugin.KMggplot2},{eeptools},{ggparallel},{ggsubplot},{popgraph},{PairedData},{ggRandomForests},{xkcd},{COPASutils},{ggROC},{granovaGG},{PKreport},{ggExtra},{bdscale},{ggswissmaps},{MCMC.OTU},{gapmap},{ggenealogy},{Rz},{PKgraph},{mapDK},{orgR},{vdmR},{ggtern},{sjPlot}
 
 ## パッケージ紹介
+### ggthemr
+- サイトリンク
+  - [GitHub](https://github.com/cttobin/ggthemr)
+- 概要
+  - `ggplot`オブジェクトにテーマを自動的に割り当てることができる拡張パッケージです
+  - 事前に`ggthemr('sea')`のようにテーマをセットすれば、以降自動的にそのテーマでggplotされます
+  - 解除したいときは`ggthemr_reset()`を実行
+  - 他にもレイアウトやスペースなどを設定可能
+- サンプルコードなど
+  - 各テーマの例は[GitHub](https://github.com/cttobin/ggthemr)を
+  - メイン関数`ggthemr`については[How to use the ggthemr R function | Rdocumentation](http://www.rdocumentation.org/packages/ggthemr/functions/ggthemr)を
+- インストール
+  - GitHubよりインストール
+```R
+library("devtools")
+install_github('ggthemr', 'cttobin')
+```
+
 ### ggthemes
 - サイトリンク
   - [GitHub](https://github.com/jrnold/ggthemes)
   - [CRAN](http://cran.r-project.org/web/packages/ggthemes/index.html)
 - 概要
   - `ggplot2`にテーマ設定を簡単に当てることができるようになる拡張パッケージです
-  - ` + theme_stata()`の様にtheme_(テーマ名)と追加するだけで変更可能
+  - ` + theme_stata()`のようにtheme_(テーマ名)と追加するだけで変更可能
   - Scalesについてもカラーパターンが色々準備されています
   - ` + theme_excel()`であのグラフが眼前に蘇ります
 - サンプルコードなど
