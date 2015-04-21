@@ -2,15 +2,34 @@
 ggplot2に関連するパッケージは現在かなりの数があります。その中から「これはいいね」という素敵なパッケージを集めてまとめることにしました。なお現在試験的に作成しています。
 
 ## index
+- [ggthemes](#ggthemes)
 - [GGally](#GGally)
 - [ggfortify](#ggfortify)
 - [ggmcmc](#ggmcmc)
 
 以下準備・検討中リスト
 
-{ggmap},{ggdendro},{ggthemes},{pitchRx},{RcmdrPlugin.KMggplot2},{eeptools},{ggparallel},{ggsubplot},{popgraph},{PairedData},{ggRandomForests},{xkcd},{COPASutils},{ggROC},{granovaGG},{PKreport},{ggExtra},{bdscale},{ggswissmaps},{MCMC.OTU},{gapmap},{ggenealogy},{Rz},{PKgraph},{mapDK},{orgR},{vdmR},{ggtern}
+{ggmap},{ggdendro},{pitchRx},{RcmdrPlugin.KMggplot2},{eeptools},{ggparallel},{ggsubplot},{popgraph},{PairedData},{ggRandomForests},{xkcd},{COPASutils},{ggROC},{granovaGG},{PKreport},{ggExtra},{bdscale},{ggswissmaps},{MCMC.OTU},{gapmap},{ggenealogy},{Rz},{PKgraph},{mapDK},{orgR},{vdmR},{ggtern}
 
 ## パッケージ紹介
+### ggthemes
+- サイトリンク
+  - [GitHub](https://github.com/jrnold/ggthemes)
+  - [CRAN](http://cran.r-project.org/web/packages/ggthemes/index.html)
+- 概要
+  - `ggplot2`にテーマ設定を簡単に当てることができるようになる拡張パッケージです
+  - ` + theme_stata()`の様にtheme_(テーマ名)と追加するだけで変更可能
+  - Scalesについてもカラーパターンが色々準備されています
+  - ` + theme_excel()`であのグラフが眼前に蘇ります
+- サンプルコードなど
+  - 基本的な使い方およびサンプルコードは[GitHub](https://github.com/jrnold/ggthemes)を
+  - 上のREADME.mdの内容は`vignette("ggthemes")でも確認できます(html)
+- インストール
+  - CRANよりインストール(Windowsでは事前に`Rtools`のインストールが必要)
+```R
+install.packages("ggthemes", dependencies=TRUE)
+```
+
 ### GGally
 - サイトリンク
   - [GitHub](https://github.com/ggobi/ggally)
