@@ -86,11 +86,6 @@ install.packages("ggthemes", dependencies=TRUE)
 ```R
 install.packages("GGally", dependencies=TRUE)
 ```
-  - GitHubよりインストール(開発版)
-```R
-library(devtools)
-install_github("ggobi/ggally")
-```
 
 ### ggfortify
 - サイトリンク
