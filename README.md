@@ -84,7 +84,12 @@ install.packages("ggthemes", dependencies=TRUE)
 - インストール
   - CRANよりインストール
 ```R
-install.packages("ggmcmc", dependencies=TRUE)
+install.packages("GGally", dependencies=TRUE)
+```
+  - GitHubよりインストール(開発版)
+```R
+library(devtools)
+install_github("ggobi/ggally")
 ```
 
 ### ggfortify
