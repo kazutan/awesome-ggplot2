@@ -2,17 +2,36 @@
 ggplot2に関連するパッケージは現在かなりの数があります。その中から「これはいいね」という素敵なパッケージを集めてまとめることにしました。なお現在試験的に作成しています。
 
 ## index
-- [ggthemr](#ggthemr)
-- [ggthemes](#ggthemes)
-- [GGally](#ggally)
-- [ggfortify](#ggfortify)
-- [ggmcmc](#ggmcmc)
+- [ggdendro](#ggdendro) - デンドログラムや樹形図を描写
+- [ggthemr](#ggthemr) - テーマ拡張
+- [ggthemes](#ggthemes) - テーマ拡張
+- [GGally](#ggally) - ペアプロットを`ggplot2`で描写など
+- [ggfortify](#ggfortify) - 主要パッケージの出力をそのまま`ggplot`
+- [ggmcmc](#ggmcmc) - mcmcの出力を簡単に`ggplot`へ
 
 以下準備・検討中リスト
 
-{ggmap},{ggdendro},{pitchRx},{RcmdrPlugin.KMggplot2},{eeptools},{ggparallel},{ggsubplot},{popgraph},{PairedData},{ggRandomForests},{xkcd},{COPASutils},{ggROC},{granovaGG},{PKreport},{ggExtra},{bdscale},{ggswissmaps},{MCMC.OTU},{gapmap},{ggenealogy},{Rz},{PKgraph},{mapDK},{orgR},{vdmR},{ggtern},{sjPlot}
+{ggmap},{pitchRx},{RcmdrPlugin.KMggplot2},{eeptools},{ggparallel},{ggsubplot},{popgraph},{PairedData},{ggRandomForests},{xkcd},{COPASutils},{ggROC},{granovaGG},{PKreport},{ggExtra},{bdscale},{ggswissmaps},{MCMC.OTU},{gapmap},{ggenealogy},{Rz},{PKgraph},{mapDK},{orgR},{vdmR},{ggtern},{sjPlot}
 
 ## パッケージ紹介
+### ggdendro
+- サイトリンク
+  - [GitHub](https://github.com/andrie/ggdendro)
+  - [CRAN](http://cran.r-project.org/web/packages/ggdendro/index.html)
+- 概要
+  - `ggplot`を使ってデンドログラムや樹形図を描かせるパッケージ
+  - 基本関数`ggdendrogram()`では、出力オブジェクトはggplotクラスで返します
+  - `dendro_data()`関数を使えば、デンドログラムなどの出力結果を`ggplot()`に放り込めるデータ型へ変換
+  - `hclust`や`tree`、`dendrogram`や`rpart`クラスに対応
+- サンプルコードなど
+  - 基本的な使い方はパッケージの[vignette](http://cran.r-project.org/web/packages/ggdendro/vignettes/ggdendro.html)を
+  - 上記を参考に作成したサンプル: [RPubs - ggdendroのテスト](https://rpubs.com/kazutan/ggdendro_test)
+- インストール
+  - CRANよりインストール
+```R
+install.packages("ggdendro")
+```
+  
 ### ggthemr
 - サイトリンク
   - [GitHub](https://github.com/cttobin/ggthemr)
