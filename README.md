@@ -2,6 +2,7 @@
 ggplot2に関連するパッケージは現在かなりの数があります。その中から「これはいいね」という素敵なパッケージを集めてまとめることにしました。なお現在試験的に作成しています。
 
 ## index
+- [ggmap](#ggmap) - `ggplot2`で地図&位置データを活用したプロットを描写
 - [ggdendro](#ggdendro) - デンドログラムや樹形図を描写
 - [ggthemr](#ggthemr) - テーマ拡張
 - [ggthemes](#ggthemes) - テーマ拡張
@@ -14,6 +15,25 @@ ggplot2に関連するパッケージは現在かなりの数があります。�
 {ggmap},{pitchRx},{RcmdrPlugin.KMggplot2},{eeptools},{ggparallel},{ggsubplot},{popgraph},{PairedData},{ggRandomForests},{xkcd},{COPASutils},{ggROC},{granovaGG},{PKreport},{ggExtra},{bdscale},{ggswissmaps},{MCMC.OTU},{gapmap},{ggenealogy},{Rz},{PKgraph},{mapDK},{orgR},{vdmR},{ggtern},{sjPlot}
 
 ## パッケージ紹介
+### ggmap
+- サイトリンク
+  - [GitHub](https://github.com/dkahle/ggmap)
+  - [CRAN](http://cran.r-project.org/web/packages/ggmap/index.html)
+- 概要
+  - `ggplot`で地図(GoogleMap, OpenStreetMapなど)を描く&地図上にプロットを描くパッケージ
+  - `get_map()`でMapオブジェクト(表示させる地図データ)を設置
+  - `ggmap()`でMapオブジェクトをplot
+  - `geocode()`(地名から緯度経度を出力)や`revgeocode()`(緯度経度から住所を出力)も便利
+  - `ggimage(hadley)`であの方が…
+- サンプルコード
+  - 極々基本的な使い方は[GitHub](https://github.com/dkahle/ggmap)を
+  - サンプル: [地図を描きたい俺はgoogleVisパッケージかggmapパッケージかどちらを使おうか迷うが、静的な地図を描きたい場合はggmapで良いみたい](http://d.hatena.ne.jp/teramonagi/20140815/1408099162) 
+- インストール
+  - CRANよりインストール
+```R
+install.packages("ggmap")
+```
+
 ### ggdendro
 - サイトリンク
   - [GitHub](https://github.com/andrie/ggdendro)
