@@ -12,7 +12,7 @@ ggplot2に関連するパッケージは現在かなりの数があります。�
 
 以下準備・検討中リスト
 
-{pitchRx},{RcmdrPlugin.KMggplot2},{eeptools},{ggparallel},{ggsubplot},{popgraph},{PairedData},{ggRandomForests},{xkcd},{COPASutils},{ggROC},{granovaGG},{PKreport},{ggExtra},{bdscale},{ggswissmaps},{MCMC.OTU},{gapmap},{ggenealogy},{Rz},{PKgraph},{mapDK},{orgR},{vdmR},{ggtern},{sjPlot}
+{pitchRx},{RcmdrPlugin.KMggplot2},{eeptools},{ggparallel},{ggsubplot},{popgraph},{PairedData},{ggRandomForests},{xkcd},{COPASutils},{ggROC},{granovaGG},{PKreport},{ggExtra},{bdscale},{ggswissmaps},{MCMC.OTU},{gapmap},{ggenealogy},{Rz},{PKgraph},{mapDK},{orgR},{vdmR},{ggtern},{sjPlot},{choroplethr}
 
 ## パッケージ紹介
 ### ggmap
