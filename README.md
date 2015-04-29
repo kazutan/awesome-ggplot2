@@ -2,7 +2,8 @@
 ggplot2に関連するパッケージは現在かなりの数があります。その中から「これはいいね」という素敵なパッケージを集めてまとめることにしました。なお現在試験的に作成しています。
 
 ## index (追加順)
-- [ggExtra](#ggextra) - 散布図の周りに周辺分布(ヒストグラム)を同時出力するパッケージ
+- [ggparallel](#ggparallel) - カテゴリカル変数間で並行座標プロットを`ggplot2`で描写
+- [ggExtra](#ggextra) - 散布図の周りに周辺分布(ヒストグラム)を同時出力
 - [ggmap](#ggmap) - `ggplot2`で地図&位置データを活用したプロットを描写
 - [ggdendro](#ggdendro) - デンドログラムや樹形図を描写
 - [ggthemr](#ggthemr) - テーマ拡張
@@ -13,9 +14,27 @@ ggplot2に関連するパッケージは現在かなりの数があります。�
 
 以下準備・検討中リスト
 
-{pitchRx},{RcmdrPlugin.KMggplot2},{eeptools},{ggparallel},{ggsubplot},{popgraph},{PairedData},{ggRandomForests},{xkcd},{COPASutils},{ggROC},{granovaGG},{PKreport},{bdscale},{ggswissmaps},{MCMC.OTU},{gapmap},{ggenealogy},{Rz},{PKgraph},{mapDK},{orgR},{vdmR},{ggtern},{sjPlot},{choroplethr}
+{pitchRx},{RcmdrPlugin.KMggplot2},{eeptools},{ggsubplot},{popgraph},{PairedData},{ggRandomForests},{xkcd},{COPASutils},{ggROC},{granovaGG},{PKreport},{bdscale},{ggswissmaps},{MCMC.OTU},{gapmap},{ggenealogy},{Rz},{PKgraph},{mapDK},{orgR},{vdmR},{ggtern},{sjPlot},{choroplethr}
 
 ## パッケージ紹介
+### ggparallel
+- サイトリンク
+  - [GitHub](https://github.com/heike/ggparallel)
+  - [CRAN](http://cran.r-project.org/web/packages/ggparallel/index.html)
+- 概要
+  - `ggplot2`を利用して並行座標プロットを描きます
+  - カテゴリカル変数間で、水準間にどの程度つながりがあるかをリボンでつなぐことで図示しています
+  - 図示するパターンがいくつかあり、オプションを設定することで色々できます
+  - もちろん`ggplot2`を利用していますので、Scalesなどにも対応
+- サンプルコード
+  - `ggparallel::ggparallel()`のヘルプをご覧ください。
+  - 上記のExampleを実行・解説したサンプル: [RPubs - gparallel_Example](http://rpubs.com/kazutan/ggparallel_example)
+- インストール
+  - CRANよりインストール
+```R
+install.packages("ggparallel")
+```
+
 ### ggExtra
 - サイトリンク
   - [GitHub](https://github.com/daattali/ggExtra)
