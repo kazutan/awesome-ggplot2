@@ -1,7 +1,8 @@
 # awesome-ggplot2
 ggplot2に関連するパッケージは現在かなりの数があります。その中から「これはいいね」という素敵なパッケージを集めてまとめることにしました。なお現在試験的に作成しています。
 
-## index
+## index (追加順)
+- [ggExtra](#ggextra) - 散布図の周りに周辺分布(ヒストグラム)を同時出力するパッケージ
 - [ggmap](#ggmap) - `ggplot2`で地図&位置データを活用したプロットを描写
 - [ggdendro](#ggdendro) - デンドログラムや樹形図を描写
 - [ggthemr](#ggthemr) - テーマ拡張
@@ -12,9 +13,26 @@ ggplot2に関連するパッケージは現在かなりの数があります。�
 
 以下準備・検討中リスト
 
-{pitchRx},{RcmdrPlugin.KMggplot2},{eeptools},{ggparallel},{ggsubplot},{popgraph},{PairedData},{ggRandomForests},{xkcd},{COPASutils},{ggROC},{granovaGG},{PKreport},{ggExtra},{bdscale},{ggswissmaps},{MCMC.OTU},{gapmap},{ggenealogy},{Rz},{PKgraph},{mapDK},{orgR},{vdmR},{ggtern},{sjPlot},{choroplethr}
+{pitchRx},{RcmdrPlugin.KMggplot2},{eeptools},{ggparallel},{ggsubplot},{popgraph},{PairedData},{ggRandomForests},{xkcd},{COPASutils},{ggROC},{granovaGG},{PKreport},{bdscale},{ggswissmaps},{MCMC.OTU},{gapmap},{ggenealogy},{Rz},{PKgraph},{mapDK},{orgR},{vdmR},{ggtern},{sjPlot},{choroplethr}
 
 ## パッケージ紹介
+### ggExtra
+- サイトリンク
+  - [GitHub](https://github.com/daattali/ggExtra)
+  - [CRAN](http://cran.r-project.org/web/packages/ggExtra/index.html)
+- 概要
+  - `ggplot2`で描写した散布図に、x and/or yの周辺度数の分布を加えてくれるパッケージ
+  - メイン機能`ggMarginal()`に`ggplot()`で作成したオブジェクトを放り込むと作成可能
+  - `> ggmarginal(data=mtcars,x="wt",y="mpg")`というようにデータから直接でも可能
+- サンプルコード
+  - 基本的な使い方は[GitHub](https://github.com/daattali/ggExtra)もしくはパッケージ内[vignette](http://cran.r-project.org/web/packages/ggExtra/vignettes/overview.html)を
+  - デモとコード生成をしてくれるShiny appがありますのでぜひチェックしてください。
+- インストール
+  - CRANよりインストール
+```R
+install.packages("ggExtra")
+```
+
 ### ggmap
 - サイトリンク
   - [GitHub](https://github.com/dkahle/ggmap)
