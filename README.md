@@ -45,7 +45,7 @@ install.packages("ggparallel")
   - `> ggmarginal(data=mtcars,x="wt",y="mpg")`というようにデータから直接でも可能
 - サンプルコード
   - 基本的な使い方は[GitHub](https://github.com/daattali/ggExtra)もしくはパッケージ内[vignette](http://cran.r-project.org/web/packages/ggExtra/vignettes/overview.html)を
-  - デモとコード生成をしてくれるShiny appがありますのでぜひチェックしてください。
+  - デモとコード生成をしてくれる[Shiny app](http://daattali.com:3838/ggExtra-ggMarginal-demo/)がありますのでぜひチェックしてください。
 - インストール
   - CRANよりインストール
 ```R
