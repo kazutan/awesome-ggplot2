@@ -14,7 +14,7 @@ ggplot2に関連するパッケージは現在かなりの数があります。�
 
 以下準備・検討中リスト
 
-{pitchRx},{RcmdrPlugin.KMggplot2},{eeptools},{ggsubplot},{popgraph},{PairedData},{ggRandomForests},{xkcd},{COPASutils},{ggROC},{granovaGG},{PKreport},{bdscale},{ggswissmaps},{MCMC.OTU},{gapmap},{ggenealogy},{Rz},{PKgraph},{mapDK},{orgR},{vdmR},{ggtern},{sjPlot},{choroplethr},{ggcyto},{ggtree}
+{pitchRx},{RcmdrPlugin.KMggplot2},{eeptools},{ggsubplot},{popgraph},{PairedData},{ggRandomForests},{xkcd},{COPASutils},{ggROC},{granovaGG},{PKreport},{bdscale},{ggswissmaps},{MCMC.OTU},{gapmap},{ggenealogy},{Rz},{PKgraph},{mapDK},{orgR},{vdmR},{ggtern},{sjPlot},{choroplethr},{ggcyto},{ggtree},{waffle}
 
 ## パッケージ紹介
 ### ggparallel
