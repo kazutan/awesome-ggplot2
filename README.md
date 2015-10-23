@@ -147,6 +147,7 @@ install.packages("GGally", dependencies=TRUE)
 ### ggfortify
 - サイトリンク
   - [GitHub](https://github.com/sinhrks/ggfortify)
+  - [CRAN](https://cran.r-project.org/web/packages/ggfortify/index.html)
 - 概要
   - 一般的なRパッケージで`ggplot2`をスムーズに使えるようにしたパッケージです
   - カバーしているパッケージが非常に多く、また設定も簡単に行えます
@@ -154,10 +155,9 @@ install.packages("GGally", dependencies=TRUE)
   - 解説およびサンプルは上記GitHubのリンクを参照してください
   - サンプル: [RPubs - Concepts and Basics of ggfortify](http://rpubs.com/sinhrks/basics)
 - インストール
-  - GitHubよりインストール
+  - CRANよりインストール
 ```R
-library(devtools)
-install_github('sinhrks/ggfortify')
+install.packages("ggfortify", dependencies=TRUE)
 ```
 
 ### ggmcmc
